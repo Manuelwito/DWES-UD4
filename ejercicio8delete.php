@@ -18,10 +18,7 @@
             echo"Conectado correctamente";
             echo"<br>";
             $sql = "DELETE FROM `turista` WHERE `id` = 641";
-            
-            
             $numeroClientesBorrados =$conexion->exec($sql);
-            
             echo "se han eliminado $numeroClientesBorrados";
             
              
